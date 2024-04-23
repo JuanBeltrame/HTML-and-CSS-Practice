@@ -9,35 +9,84 @@
     <link rel="stylesheet" href="/Css-Folder-Practice/style.css">
 
     <!-- El estilo se aplica de forma global-->
-        <style>
-            h1 {
-                color: red;
-                background-color: white;
-            }
+    <style>
+        h1 {
+            color: red;
+            background-color: white;
+        }
 
-            h2 {
-                color: yellow;
-                background-color: blue;
-            }
+        h2 {
+            color: yellow;
+            background-color: blue;
+        }
 
-            h5,h6 {
-                color: green;
-                background-color: black;
-            }
+        h5,
+        h6 {
+            color: green;
+            background-color: black;
+        }
 
-            body{
-                background-color: black;
-            }
-        </style>
+        body {
+            background-color: cornsilk;
+        }
+
+        #parrafo {
+            text-align: center;
+        }
+
+        #titulo {
+            color: blue;
+            background-color: yellow;
+            text-align: center;
+        }
+
+        .seccion1 {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .seccion2 {
+            color: black;
+            background-color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Este es el Primer Titulo: (h1)</h1>
-    <h2>Este es el Segundo Titulo: (h2)</h2>
-    <h3 style="color: coral; background-color: blueviolet;">Este es el Tercer Titulo: (h3)</h3> <!--El estilo se aplica de forma local-->
-    <h4 style="color: chocolate; background-color: burlywood;">Este es el Cuarto Titulo: (h4)</h4><!--El estilo se aplica de forma local-->
-    <h5>Este es el Quinto Titulo: (h5)</h5>
-    <h6>Este es el Sexto Titulo: (h6)</h6>
+    <article>
+        <h1>Este es el Primer Titulo: (h1)</h1>
+        <h2>Este es el Segundo Titulo: (h2)</h2>
+        <h3 style="color: coral; background-color: blueviolet;">Este es el Tercer Titulo: (h3)</h3>
+        <!--El estilo se aplica de forma local-->
+        <h4 style="color: chocolate; background-color: burlywood;">Este es el Cuarto Titulo: (h4)</h4>
+        <!--El estilo se aplica de forma local-->
+        <h5>Este es el Quinto Titulo: (h5)</h5>
+        <h6>Este es el Sexto Titulo: (h6)</h6>
+
+        <h1 id="titulo">Esto corresponde al css con #titulo</h1>
+        <p id="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur illum veniam dicta! Illum
+            voluptate quae labore, explicabo delectus ex quam exercitationem, voluptatem ea deserunt, consequuntur hic
+            temporibus inventore fugit! Ea.</p>
+    </article>
+
+    <section>
+        <article>
+            <h1 class="seccion1"> Titulo Principal</h1>
+            <h2 class="seccion1"> Titulo Secundario</h2>
+            <p class="seccion1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquam optio officiis adipisci facere ex
+                quisquam? Iusto ducimus eum totam odio, numquam unde molestiae minus, excepturi repellendus, nemo quis
+                similique.</p>
+
+            <h1 class="seccion2">Titulo principal de otra seccion</h1>
+            <h2 class="seccion2">Titulo secunadio de otra seccion</h2>
+            <P class="seccion2">Otro parrafo de otra seccion, Otro parrafo de otra seccion, Otro parrafo de otra seccion, Otro parrafo de
+                otra seccion, Otro parrafo de otra seccion, Otro parrafo de otra seccion, Otro parrafo de otra seccion,
+                Otro parrafo de otra seccion, </P>
+        </article>
+    </section>
+
 </body>
 
 </html>
