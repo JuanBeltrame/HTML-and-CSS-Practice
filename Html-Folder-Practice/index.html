@@ -32,6 +32,30 @@
         <nav></nav>
     </header>
 
+    <section> <!-- Tipos de titulos-->
+        <Article>
+            <h1>Titulo Principal</h1> <!-- Titulo Principal, el cual iria una sola vez por pagina -->
+            <hr> <!-- Linea Horizontal -->
+            <h2>Titulo Secundario</h2> <!-- Para subsecciones, o sub categorias-->
+            <hr> <!-- Linea Horizontal -->
+            <h3>Otros titulos</h3>
+            <hr> <!-- Linea Horizontal -->
+            <h4>Otros titulos</h4>
+            <hr> <!-- Linea Horizontal -->
+            <h5>Otros titulos</h5>
+            <hr> <!-- Linea Horizontal -->
+            <h6>Otros titulos</h6>
+        </Article>
+        <article>
+            <h1>Titulo Principal</h1>
+            <h2>Titulo secundario</h2>
+            <h3>Otros titulos</h3>
+            <h4>Otros titulos</h4>
+            <h5>Otros titulos</h5>
+            <h6>Otros titulos</h6>
+        </article>
+    </section>
+
     <section>
         <Article>
             <!--El Elemento p es en bloque, es decir todo hasta el final-->
@@ -47,7 +71,41 @@
             <p> Este texto es importante: <em> ENFATICO </em></p>
 
         </Article>
-        <article></article>
+        <article>
+            <h1>Titulo princial </h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> <!--Salto de Linea --> 
+                Libero repellat laboriosam veritatis soluta laborum eos et dolor sit, <br> <!--Salto de Linea -->
+                consectetur suscipit voluptatum culpa, deserunt, sunt iusto adipisci quibusdam <br> <!--Salto de Linea -->
+                eveniet ullam fugit!</p>
+        </article>
+
+        <article>
+            <pre>Esta etiqueta te permite hacer saltos de pagina
+y mantener el formato del texto <!-- Toma el espacio del editor, es decir la sangria-->
+aca un tercer renglon
+            </pre>
+
+            <blockquote> <!-- Cita -->
+                <p>Esta es una cita. (Usando etiqueta "blockquote") by Juan Beltrame</p>
+            </blockquote>
+
+            <p><q cite="https:www.lanacion.com"></q>Esta tambien es un acita. (Usando etiqueta "q") by Juan Beltrame</q></p> <!-- En esta cita aca las comillas se ponen solas -->
+
+            <h1>TEOREMA DE PITAGORAS</h1>
+            <hr>
+            <!--Super Indices-->
+            <p>Hipotenusa <sup> 2</sup> = cateto opuesto <sup>2</sup> + cateto adyacente<sup>2</sup></p> <!-- Sup es para exponentes -->
+
+            <h1>COMPOSICION QUIMICA DEL AGUA</h1>
+            <hr>
+            <!--Sub Indices-->
+            <p>H<sub>2</sub>O</p> <!-- Sub es para subindices -->
+
+            <h1>CUANTOS KILOMETROS HAY DESDE LA TIERRA A LA LUNA?</h1>
+            <hr>
+            <p> Desde la tierra a la luna hay 384.400<abbr title="KILOMETROS">kms</abbr></p>
+        </article>
     </section>
 
     <aside></aside>
