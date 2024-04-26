@@ -8,7 +8,40 @@
 <body>
     <Section>
         <Article>
+            <p>Hola soy la etiqueta P</p> <!--El Elemento p es en bloque, es decir todo hasta el final-->
+            <p>Este texto a continuacion es negrita: <b>NEGRITA</b></p> <!--El Elemento b es en linea, es decir solo la palabra y es para negrita-->
+            <p>Este texto a continuacion es cursiva: <i>CURSIVA</i></p> <!--El Elemento i es en linea, es decir solo la palabra y es para cursiva-->
+            <p style="background-color: yellow">Amarillo</p> <!--El fondo del elemento p es amarillo (Elemento en Bloque)-->
+            <b style="background-color: aqua">Aqua</b> <!--El fondo del elemento b es aqua (Elemento en Linea)-->
             
+            <p>Este texto a continuacion es negrita con fondo amarillo: <b style="background-color: yellow">NEGRITA</b></p> <!-- El Background color solamente toma el elemento-->
+            <p>Este texto a continuacion es cursiva con fondo aqua: <i style="background-color: aqua">CURSIVA</i></p> <!-- El Background color solamente toma el elemento-->
+            <p style="border: 1px solid red">Este texto a continuacion es con borde rojo</p> <!-- El borde no se aplica en el texto-->
+            <p> Este texto es importante: <strong> IMPORTANTE </strong></p>
+            <p> Este texto es importante: <em> ENFATICO </em></p>
+        </Article>
+
+        <article>
+            <h2>Lorem Ipsum: Texto en Latin de Prueba cuando no se dispone del texto final, se usa para rellenar</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> <!--br: Es para hacer salto de Linea --> 
+                Libero repellat laboriosam veritatis soluta laborum eos et dolor sit, <br> <!--br: Es para hacer salto de Linea --> 
+                consectetur suscipit voluptatum culpa, deserunt, sunt iusto adipisci quibusdam <br> <!--br: Es para hacer salto de Linea --> 
+                eveniet ullam fugit!</p>
+        </article>
+
+        <Article>
+            <pre>Esta etiqueta te permite hacer saltos de pagina
+                            y mantener el formato del texto <!-- Toma el espacio del editor, es decir la sangria-->
+                            aca un tercer renglon
+                        </pre>
+                        
+            <blockquote> <!-- Cita -->
+                <p>Esta es una cita. (Usando etiqueta "blockquote") by Juan Beltrame</p>
+            </blockquote>
+            
+            <!-- En esta cita aca las comillas se ponen solas -->
+            <p><q cite="https:www.lanacion.com">Esta tambien es un acita. (Usando etiqueta "q") by Juan Beltrame</q></p>
         </Article>
     </Section>
 </body>
