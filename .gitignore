@@ -9,6 +9,8 @@ cache/
 logs/
 
 # Files to ignore
+*.mp3
+*.mp4
 *.log
 *.tmp
 *.sass-cache
