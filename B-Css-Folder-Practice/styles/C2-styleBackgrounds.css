@@ -1,0 +1,48 @@
+
+/* 
+-----------------------------------------------------
+Styles for Backgrounds
+------------------------------------------------------
+Solid Color Background
+------------------------------------------------------
+body{
+    background-color: violet;
+} 
+*/
+
+/* 
+-----------------------------------------------------
+Gradient Background 
+------------------------------------------------------
+body{
+    background: linear-gradient(90deg, #fff 0%, red 20%, violet 60%, blue 100%);
+} 
+*/
+
+
+
+/* 
+-----------------------------------------------------
+URL Background and Background Attibutes
+-----------------------------------------------------
+body{
+    background: url(/B-Css-Folder-Practice/assets/img/FondoPruebaCSS.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+*/
+
+/*
+-----------------------------------------------------
+URL Background and Background Attibutes (Using shorthand) (Que basicamente es utilizar un atributo que englobe otros atributos)
+-----------------------------------------------------
+*/
+body{
+    background: black url(/B-Css-Folder-Practice/assets/img/FondoPruebaCSS.jpg) no-repeat bottom;
+}
+
+
+p{
+    color: white;
+} 
