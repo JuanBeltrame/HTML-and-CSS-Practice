@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia-Video</title>
+</head>
+
+<body>
+    <!--The <video> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.-->
+    <!-- Opcion 01 -->
+    <video src="/A-Html-Folder-Practice/assest/video/VideoDePrueba.mp4" controls width="500px"></video>
+    <!--The src attribute specifies the location of the video file.-->\
+    <!--The autoplay attribute is a boolean attribute. When present, the video will automatically start playing as soon as it can do so without stopping.-->
+    <!--The muted attribute is a boolean attribute. When present, it specifies that the video will start muted.-->
+    <!--The controls attribute adds video controls, like play, pause, and volume.-->
+    <!--The width attribute specifies the width of the video player.-->
+
+    <hr>
+
+    <!-- Opcion 02 -->
+    <video controls autooplay muted width="500px">
+        <source src="/A-Html-Folder-Practice/assest/video/VideoDePrueba.mp4" type="video/mp4">
+        <p>Tu navegador no soporta este formato, para poder descargarlo haz click aqui
+            <a href="/A-Html-Folder-Practice/assest/video/VideoDePrueba.mp4"></a>
+        </p>
+    </video>
+
+    <hr>
+    <!-- Opcion 02: With Thumbail -->
+    <video controls width="500px" poster="/A-Html-Folder-Practice/assest/img/SergieCodeThumbail.webp">
+        <source src="/A-Html-Folder-Practice/assest/video/VideoDePrueba.mp4" type="video/mp4">
+        <p>Tu navegador no soporta este formato, para poder descargarlo haz click aqui
+            <a href="/A-Html-Folder-Practice/assest/video/VideoDePrueba.mp4"></a>
+        </p>
+    </video>
+</body>
+
+</html>
