@@ -1,0 +1,67 @@
+p.dotted{
+    border-style: dotted;
+}
+
+/*
+-----------------------------------------------------
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos
+-----------------------------------------------------
+*/
+p.dotted2{
+    border: 5px solid green;
+}
+
+
+p.dashed{
+    border-style: dashed;
+    border-color: red;
+    border-width: 5px;
+}
+p.solid{
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 25px;
+    text-align: center;
+}
+p.double{
+    border-style: double;
+    border-color: red;
+    border-width: 5px;
+}
+p.groove{
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+}
+p.ridge{
+    border-style: ridge;
+    border-color: red;
+    border-width: 5px;
+}
+p.inset{
+    border-style: inset;
+    border-color: red;
+    border-width: 5px;
+}
+p.outset{
+    border-style: outset;
+    border-color: red;
+    border-width: 5px;
+}
+p.none{
+    border-style: none;
+    border-color: red;
+    border-width: 5px;
+}
+p.hidden{
+    border-style: hidden;
+    border-color: red;
+    border-width: 5px;
+}
+p.mix{
+    border-style: dotted dashed solid double;
+    border-color: red;
+    border-width: 5px;
+}
+
