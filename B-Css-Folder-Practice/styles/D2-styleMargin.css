@@ -1,0 +1,40 @@
+.cajita1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: green;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cajita2{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: red;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.cajita3{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: blue;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/*
+-----------------------------------------------------
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos
+-----------------------------------------------------
+*/
+.cajita4{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    background-color: blue;
+    margin-top: 30px;
+    text-align: center;
+}
