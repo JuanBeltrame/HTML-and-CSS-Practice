@@ -1,0 +1,19 @@
+.cajita1{
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-left: 30xp;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+/*
+-----------------------------------------------------
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos (En este caso para el atributo padding)
+-----------------------------------------------------
+*/
+.cajita2{
+    border: 1px solid black;
+    background-color: aquamarine;
+    padding: 50px 30px 50px 30px;
+}

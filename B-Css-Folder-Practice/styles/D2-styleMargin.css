@@ -27,7 +27,7 @@
 
 /*
 -----------------------------------------------------
-Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos (En este caso para el atributo margin)
 -----------------------------------------------------
 */
 .cajita4{
@@ -35,6 +35,6 @@ Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atrib
     width: 300px;
     border: 5px solid black;
     background-color: blue;
-    margin-top: 30px;
+    margin: 10px 30px 50px 100px;
     text-align: center;
 }
