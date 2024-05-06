@@ -10,34 +10,17 @@
 <body>
     <h1>Formularios:</h1>
     <hr>
-    <form>
-        <label for="Usuario Juan">Usuario Juan: </label>
-        <Input type="text" id="Usuario Juan" name="Usuario Juan" value="Juan Beltrame" readonly></Input> <!--Readonly, no se puede modificar-->
-        <br>
-        <br>
-        <hr>
-        <label for="Usuario Juan">Usuario Juan: </label>
-        <Input type="text" id="Usuario Juan" name="Usuario Juan" value="Juan Beltrame" disabled></Input> <!--Disabled, no se puede modificar pero se ve en gris-->
-        <br>
-        <br>
-        <hr>
-        <label for="usuario">Usuario: </label>
-        <Input type="text" id="usuario" name="usuario" placeholder="Escribe aqui tu usuario" maxlength="10" minlength="4" pattern="[A-Za-z]{9}" required></Input>
-        <small>Es obligatorio este campo</small>
+    <form action="envio.php" method="post" target="_blank">
+        <label for="Usuarioo">Usuario: </label>
+        <Input type="text" id="usuario" name="usuario" placeholder="Escribe aqui tu usuario"></Input>
         <br>
         <br>
         <label for="password">Contraseña: </label>
-        <Input type="password" id="password" name="password" placeholder="Escribe aqui tu contraseña" required></Input>
-        <small>Es obligatorio este campo</small>
+        <Input type="password" id="password" name="password" placeholder="Escribe aqui tu contraseña"></Input>
         <br>
         <br>
         <hr>
-        <label for="usuarioMail">Mail: </label>
-        <Input type="email" id="usuarioMail" name="usuarioMail" placeholder="Escribe aqui tu email" required></Input>
-        <small>Es obligatorio este campo</small>
-        <br>
-        <br>
-        <hr>
+
 
         <!--Seleccion Multiple-->
         <input type="checkbox" name="lenguajes" value="HTML">HTML
@@ -50,24 +33,24 @@
 
 
         <!--Seleccion Simple-->
-        <input type="radio" name="lenguajes" value="HTML" required>HTML
-        <input type="radio" name="lenguajes" value="CSS" required>CSS
-        <input type="radio" name="lenguajes" value="JAVASCRIPT" required>JAVASCRIPT
-        <input type="radio" name="lenguajes" value="REACT" required>REACT
+        <input type="radio" name="lenguajes" value="HTML">HTML
+        <input type="radio" name="lenguajes" value="CSS">CSS
+        <input type="radio" name="lenguajes" value="JAVASCRIPT">JAVASCRIPT
+        <input type="radio" name="lenguajes" value="REACT">REACT
         <br>
         <br>
         <hr>
 
 
         <label for="programando">Años Programando: </label>
-        <input type="number" id="programando" name="programando" placeholder="Años programando" max="5" min="0">
+        <input type="number" id="programando" name="programando" placeholder="Años programando">
         <br>
         <br>
         <hr>
 
 
         <label for="archvio">Subi tu curriculum</label>
-        <input type="file" id="archvio" name="archvio" value="file" multiple>
+        <input type="file" id="archvio" name="archvio" value="file">
         <br>
         <br>
         <hr>
@@ -114,28 +97,10 @@
         <br>
         <hr>
 
-        <!--Inputs-->
-        <input type="button" value="Enviar"> <!--Button, es solo un boton-->
-        <br>
-        <br>
-        <input type="button" onclick="alert('Sucribite a mi canal')" value="Suscribirse"> <!--Button, es solo un boton-->
-        <br>
-        <br>
-        <button type="button" onclick="alert('Sucribite a mi canal')">Hazme click</button> <!--Se puede utilizar de las 2 formas indistintamente-->
-        <br>
-        <br>
-        <input type="submit" value="Enviar"> <!--Submin, ejecuta el formulario, por lo general se usa submit-->
-        <br>
-        <br>
-        <input type="reset" value="Limpiar"> <!--Reset, limpia el formulario-->
-        <br>
-        <br>
-        <label for="fecha">Fecha de Ingreso laboral: </label>
-        <input type="date" id="fecha" name="fecha" max="2024-05-06"></input> <!--Se puede utilizar de las 2 formas indistintamente-->
-        <br>
-        <br>
-        <hr>
 
+        <input type="button" value="Enviar"> <!--Button, es solo un boton-->
+        <input type="submit" value="Enviar"> <!--Submin, ejecuta el formulario, por lo general se usa submit-->
+        <input type="reset" value="Limpiar"> <!--Reset, limpia el formulario-->
     </form>
 
 </body>
