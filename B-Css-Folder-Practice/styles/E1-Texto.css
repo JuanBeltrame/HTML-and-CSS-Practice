@@ -1,0 +1,61 @@
+/*
+-----------------------------------------------------
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos (En este caso para el atributo text-shadow)
+-----------------------------------------------------
+*/
+h1 {
+    color: gray;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    color: darkred;
+    text-align: justify;
+}
+
+b,
+i {
+    color: black;
+}
+
+.overline {
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+    text-decoration-color: green;
+    text-decoration-style: wavy;
+}
+
+/*
+-----------------------------------------------------
+Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atributos (En este caso para el atributo text-decoration)
+-----------------------------------------------------
+*/
+.underline {
+    text-decoration-line: underline wavy blue 5px;
+}
+
+.transformado{
+    text-transform: uppercase;
+}
+
+.transformado2{
+    text-indent: 150px; /* Indentación (Sangria) de 150px */
+    letter-spacing: 10px; /* Espaciado entre letras de 10px */
+    line-height: 3; /* Altura de línea de 3 */
+    word-spacing: 10px; /* Espaciado entre palabras de 10px */
+    white-space: nowrap; /* No permite saltos de línea */
+}
+
+
+
