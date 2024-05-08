@@ -1,6 +1,16 @@
-h1 {
+p.caso1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     font-weight: bold;
     font-style: italic;
+}
+
+p.caso2{
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+p.caso3{
+    font-size: 2em; /*em es una unidad relativa al tamaño de la fuente del elemento padre, pero tambien se pueden utilizar pixeles*/
 }
