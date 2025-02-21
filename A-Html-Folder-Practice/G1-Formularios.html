@@ -11,8 +11,8 @@
     <h1>Formularios:</h1>
     <hr>
     <form>
-        <label for="Usuario Juan">Usuario Juan: </label>
-        <Input type="text" id="Usuario Juan" name="Usuario Juan" value="Juan Beltrame" readonly></Input> <!--Readonly, no se puede modificar-->
+        <label for="Usuario">Usuario: </label>
+        <Input type="text" id="Usuario" name="Usuario" value="Juan Beltrame" readonly></Input> <!--Readonly, no se puede modificar-->
         <br>
         <br>
         <hr>
@@ -74,7 +74,7 @@
 
 
         <label for="opinion">Escribi tu opinion</label>
-        <textarea id="opinion" name="opinion" placeholder="Escribi tu opinion" rows="10" cols="50"></textarea>
+        <textarea id="opinion" name="opinion" placeholder="Escribi tu opinion" rows="10" cols="50"></textarea> 
         <br>
         <br>
         <hr>
@@ -87,9 +87,7 @@
             <option value="Chile">Chile</option>
             <option value="Uruguay">Uruguay</option>
         </select>
-                <option value="Francia">Francia</option>
-                <option value="España">España</option>
-                <option value="Italia">Italia</option>
+               
         <br>
         <br>
         <hr>
@@ -98,10 +96,10 @@
         <!--Con Subgrupos-->
         <label for="pais">Selecciona tu pais de origen (Con Subgrupos): </label>
         <select id="pais" name="pais">
-            <optgroup label="America">
-                <option value="Brasil">Brasil</option>
-                <option value="Argentina" selected="Argentina">Argentina</option>
-                <option value="Chile">Chile</option>
+            <optgroup label="America"> <!--Optgroup, crea un grupo de opciones-->
+                <option value="Brasil">Brasil</option> <!--Option, es una opcion de seleccion-->
+                <option value="Argentina" selected="Argentina">Argentina</option> <!--Selected, selecciona por defecto-->
+                <option value="Chile">Chile</option> 
                 <option value="Uruguay">Uruguay</option>
             </optgroup>
             <optgroup label="Europa">
