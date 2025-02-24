@@ -1,6 +1,6 @@
 .cajita1{
-    border: 1px solid black;
-    background-color: aquamarine;
+    border: 2px solid black;
+    background-color: yellowgreen;
     padding-top: 50px;
     padding-left: 30xp;
     padding-right: 30px;
@@ -13,7 +13,7 @@ Using Shorthand: Que basicamente es utilizar un atributo que englobe otros atrib
 -----------------------------------------------------
 */
 .cajita2{
-    border: 1px solid black;
+    border: 2px solid black;
     background-color: aquamarine;
     padding: 50px 30px 50px 30px;
 }

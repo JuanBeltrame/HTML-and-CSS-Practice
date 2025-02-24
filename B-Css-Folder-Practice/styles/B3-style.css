@@ -1,0 +1,13 @@
+ /* Mediante esta forma, se pueden poner varios elementos con el mismo nombre de clase y darle un estilo a todos ellos */
+        /* El . es para identificar un elemento por su clase */
+        .seccion1 {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        .seccion2 {
+            color: white;
+            background-color: blue;
+            text-align: left;
+        }
