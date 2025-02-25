@@ -1,0 +1,25 @@
+.ul1 {
+    list-style-type: circle;
+}
+
+.ul2 {
+    list-style-type: square;
+}
+
+.ul3{
+    
+    list-style-image: url(/B-Css-Folder-Practice/assets/img/cat.png);
+
+}
+
+.ul4{
+    background-color: black;
+    padding: 20px;
+}
+
+.ul4 li{
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    margin: 10px;
+}

@@ -5,12 +5,28 @@ p.caso1 {
     font-style: italic;
 }
 
-p.caso2{
+p.caso2 {
     font-style: italic;
     font-weight: bold;
     font-variant: small-caps;
 }
 
-p.caso3{
-    font-size: 2em; /*em es una unidad relativa al tamaño de la fuente del elemento padre, pero tambien se pueden utilizar pixeles*/
+p.caso3 {
+    font-size: 2em;
+    /*em es una unidad relativa al tamaño de la fuente del elemento padre, pero tambien se pueden utilizar pixeles*/
+}
+
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1,
+h2,
+p {
+    font-family: "Shadows Into Light", serif;
+    font-weight: 400;
+    font-style: normal;
 }
