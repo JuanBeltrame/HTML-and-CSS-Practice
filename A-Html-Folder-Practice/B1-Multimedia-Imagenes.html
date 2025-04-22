@@ -9,11 +9,9 @@
 
 <body>
     <!--Imagen-->
-    <img src="/A-Html-Folder-Practice/assets/img/PersonaProgramando.jpg" 
-         alt="Vos que estas del otro lado programando profesionalmente"
-         title="Imagen de una persona programando"
-         width="200" height="200"
-         loading="lazy">
+    <img src="/A-Html-Folder-Practice/assets/img/PersonaProgramando.jpg"
+        alt="Vos que estas del otro lado programando profesionalmente" title="Imagen de una persona programando"
+        width="200" height="200" loading="lazy">
     <!--Alt: Es para describir la imagen-->
     <!--Title: Muestra un texto emergente al pasar el mouse sobre la imagen-->
     <!--Width: Ancho de la imagen-->
@@ -24,14 +22,27 @@
     <!--Imagen con un link-->
     <a href="https://www.instagram.com/juanbeltrame" target="_blank">
         <!--target="_blank" es para que se abra en otra pestaña-->
-        <img src="/A-Html-Folder-Practice/assets/img/PersonaProgramando.jpg" 
-             alt="Vos que estas del otro lado programando profesionalmente"
-             title="Imagen de una persona programando"
-             height="300px"
-             loading="lazy">
+        <img src="/A-Html-Folder-Practice/assets/img/PersonaProgramando.jpg"
+            alt="Vos que estas del otro lado programando profesionalmente" title="Imagen de una persona programando"
+            height="300px" loading="lazy">
         <!--Title: Muestra un texto emergente al pasar el mouse sobre la imagen-->
         <!--Loading: Permite cargar la imagen de forma diferida (lazy loading)-->
     </a>
+    <hr>
+    <picture>
+        <source srcset="/A-Html-Folder-Practice/assets/img/SergieCodeThumbail.webp" type="image/webp">
+        <img src="/A-Html-Folder-Practice/assets/img/SergieCodeThumbail.webp" alt="Imagen WebP">
+    </picture>
+    <hr>
+    <picture>
+        <source srcset="/A-Html-Folder-Practice/assets/img/html5enPNG.png" type="image/png">
+        <img src="/A-Html-Folder-Practice/assets/img/html5enPNG.png" alt="Imagen PNG">
+    </picture>
+    <hr>
+    <picture>
+        <source srcset="/A-Html-Folder-Practice/assets/img/html5enSVG.svg" type="image/svg+xml">
+        <img src="/A-Html-Folder-Practice/assets/img/html5enSVG.svg" alt="Imagen SVG">
+    </picture>
 </body>
 
 </html>
