@@ -98,6 +98,64 @@
             <td>2</td>
         </tr>
     </table>
+
+    <h1> Ejemplo de tabla con "colspan"</h1>
+    <hr>
+    <table>
+        <caption>Ejemplo de tabla</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total de alumnos: 1</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1> Ejemplo de tabla con "rowspan"</h1>
+    <hr>
+    <table>
+        <caption>Ejemplo de tabla con rowspan</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th rowspan="2">Ciudad</th>
+            </tr>
+            <tr>
+                <th>Juan</th>
+                <th>22</th>
+                <!-- La celda de Ciudad ocupará dos filas -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td rowspan="2">Rosario</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>28</td>
+                <!-- Esta fila comparte la celda de Ciudad -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de alumnos: 3</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 
 </html>
