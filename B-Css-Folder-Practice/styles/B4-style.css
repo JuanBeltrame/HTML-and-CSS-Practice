@@ -7,7 +7,7 @@ h2 {
     background-color: red;
 }
 
-/*Selector Combinado*/
+/*Selector Combinado (Elemento + Clase)*/
 h2.seccion3 {
     color: yellow;
 }
@@ -25,7 +25,7 @@ p.seccion1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-/*Selector Combinado*/
+/*Selector Combinado (Elemento + Clase)*/
 .seccion1.estilo-fuente-distinto {
     text-align: end;
 }
