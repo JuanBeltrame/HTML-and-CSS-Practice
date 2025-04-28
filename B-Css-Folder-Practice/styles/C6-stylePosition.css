@@ -1,0 +1,64 @@
+h1{
+ position: absolute;
+ top: 50px;
+ font-size: 70px;
+}
+
+.adelante{
+    z-index: 1;
+    left: 200px;
+    position: relative;
+}
+
+.container1{
+    position: static; /* default value */
+    border: 2px solid green;
+}
+
+.container2{
+    position: relative; /* relative to its normal position */
+    border: 2px solid blue;
+    left : 50px; /* Moves the element 50px to the right */
+    top: 10px;
+}
+
+.container3{
+    position: fixed; /* relative to the viewport, queda pegado a al posicion de la pantalla */
+    bottom: 0;
+    right: 0;
+    border: 2px solid purple;
+}
+
+.container4{
+    position: absolute; /* relative to the nearest positioned ancestor, Se superpone encima de lo que tiene abajo */
+    border: 2px solid red;
+}
+
+.container5{
+    position: sticky; /* relative to the viewport until a certain scroll position is reached */
+    border: 2px solid orange;
+    top: 50px; /* Moves the element 50px from the top of the viewport */
+    background-color: lightyellow;
+}
+
+.container6{
+    position: relative; /* relative to its normal position */
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+.texto{
+    position: absolute;
+    top: 50px;
+    width: 50%;
+    text-align: center;
+    color: red;
+}
+
+.titulo-flex {
+    display: flex;
+    align-items: center;
+}
