@@ -1,0 +1,15 @@
+div{
+    background-color: aqua;
+}
+
+div h2{
+    background-color: pink;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+h1 > strong{
+    background-color: grey;
+}
